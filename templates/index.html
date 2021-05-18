@@ -1092,30 +1092,30 @@
     <button onclick="say()">Say</button>
 </div>
 <div>
-    <video id="remote-video" autoplay="" width="640" height="480" style="display:none"></video>
+    <video id="remote-video" autoplay="" width="320" height="240" style="width: 320px; height: 240px;"></video>
     <video id="local-video" autoplay="" width="320" height="240" style="display:none"></video>
-    <input type="hidden" id="remote_hw_vcodec" name="remote_hw_vcodec" value="remote_hw_vcodec">
+    <input type="hidden" id="remote_hw_vcodec" name="remote_hw_vcodec" value="remote_hw_vcodec" checked>
     <select id="remote_vformat" name="remote_vformat" style="display:none">
         <option value="5" selected="selected">320x240 15 fps</option>
     </select>
     <input type="hidden" id="cast_mic" name="audio_cast" value="microphone">
-    <input type="hidden" id="echo_cancellation" name="audio_processing" checked="">
+    <input type="hidden" id="echo_cancellation" name="audio_processing" checked>
     <input type="hidden" id="cast_camera" name="video_cast" value="camera">
-    <input type="hidden" id="cast_screen" name="video_cast" value="screen" disabled="">
-    <input type="hidden" id="cast_window" name="video_cast" value="screen" disabled="">
-    <input type="hidden" id="cast_application" name="video_cast" value="application" disabled="">
+    <input type="hidden" id="cast_screen" name="video_cast" value="screen" disabled>
+    <input type="hidden" id="cast_window" name="video_cast" value="screen" disabled>
+    <input type="hidden" id="cast_application" name="video_cast" value="application" disabled>
     <p id="note1"></p>
     <p id="note2" style="display: none;"></p>
     <p id="note3"></p>
     <p id="note4" style="display: none;"></p>
     <fieldset id="datachannels" disabled="" style="display:none">
         <input type="hidden" id="datamessage" value="">
-        <input type="hidden" readonly="readonly" id="datareceived" size="40">
+        <input type="hidden" id="datareceived" readonly="readonly" size="40">
         <input type="hidden" id="orientationsend" name="orientationsend">
         <input type="hidden" id="keypresssend" name="keypresssend">
         <input type="hidden" id="mousesend" name="mousesend">
     </fieldset>
-    <input type="text" id="signalling_server" value="192.168.1.1:8080" style>
+    <input type="text" id="signalling_server" value="192.168.1.1:8080">
     <select id="trickleice" name="trickleice" style="display:none">
         <option value="auto">auto</option>
         <option value="true" selected="selected">true</option>

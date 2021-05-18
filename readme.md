@@ -135,6 +135,8 @@ python3 index.py
 On your laptop, go to the link:
 http://raspberrypi.local:8000/
 
+Note that for video, you may need to restart UV4L (`sudo service uv4l_raspicam restart`) before initiating a connection. Sometimes it only works on the second attempt at the connection.
+
 Edit the sound volume using this:
 
 ```bash

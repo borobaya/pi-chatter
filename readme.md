@@ -120,7 +120,7 @@ https://www.highvoltagecode.com/post/webrtc-on-raspberry-pi-live-hd-video-and-au
 6. Git clone this repo into your Raspberry Pi's home folder
 
 ```bash
-git clone git@github.com:borobaya/pi-chatter.git
+git clone https://github.com/borobaya/pi-chatter.git
 ```
 
 7. Run and check that it works
